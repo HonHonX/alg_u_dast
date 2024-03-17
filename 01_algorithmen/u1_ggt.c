@@ -3,7 +3,7 @@
 
 int ggT(int x, int y) {
     int temp;
-
+    //
     while (x>0) {
         if (x<y) {
             temp = x;
