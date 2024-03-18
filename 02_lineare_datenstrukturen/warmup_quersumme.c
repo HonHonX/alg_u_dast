@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Funktion berechnet die Quersumme einer Zahl und gibt diese zurück
 int quersumme(int zahl) {
     int quersumme;
     while(zahl) {
@@ -10,6 +11,7 @@ int quersumme(int zahl) {
     return quersumme;
 }
 
+//Hauptfunktion
 int main(void) {
     int zahl;
 
@@ -18,5 +20,5 @@ int main(void) {
     printf("Die Quersumme der Zahl %d lautet: %d\n", zahl, quersumme(zahl));
     fflush(stdin);
 
-    return EXIT_SUCCESS;
+    return 1;
 }

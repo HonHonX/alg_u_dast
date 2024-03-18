@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*****************************/
-/*Implementierung einer Liste*/
-/*****************************/
-// Erweiterung um die Funktionen reinigeListe() und sortiertesEinfuegenElement()
-// Fuer die Listenbereinigung wurde die Funktion loescheElement() modifiziert,
-// so dass alle Elemente mit dem gesuchten Wert geloescht werden und nicht nur das erste gefundene
-
-// Definition der Struktur
-
 // Es wird eine einfache Listenstruktur mit einer Ganzzahl als Datum gewaehlt
 struct Listenelement{
 	int zahlenwert;
