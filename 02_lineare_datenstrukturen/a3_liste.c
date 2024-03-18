@@ -49,6 +49,7 @@ void loescheElement(int wert) {
                 vorheriges->naechstes_Element = aktuell->naechstes_Element;
             }
             free(aktuell);
+            aktuell = NULL;
             return;
         }
         vorheriges = aktuell;
