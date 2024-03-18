@@ -18,7 +18,7 @@ int main(void) {
     fflush(stdin);
 
     //Allokierung des Speichers
-    zahlenfolge = malloc (laenge * sizeof(int));
+    zahlenfolge = malloc(laenge * sizeof(int));
 
     // Ueberpruefung, ob Speicher angelegt werden konnte
 	if(zahlenfolge == NULL){
@@ -29,7 +29,6 @@ int main(void) {
     //Eingabe der Zeichenfolge
     printf("Bitte geben Sie nacheinander die Zahlen ein (mit enter getrennt):\n");
     for (int i=0;i<laenge;i++) {
-
 		scanf("%d",&zahlenfolge[i]);
 		fflush(stdin);
 	}
