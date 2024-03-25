@@ -32,7 +32,8 @@ void einfuegenElement(int wert) {
         while (aktuell->naechstes_Element != NULL) {
             aktuell = aktuell->naechstes_Element;
         }
-        aktuell->naechstes_Element = neu;
+        aktuell->naechstes_Element = neu; //Element am Ende einfügen und den Zeiger für das nächste Element auf NULL setzen
+        neu->naechstes_Element = NULL;
     }
 }
 
